@@ -5,7 +5,7 @@
 //  Created by MacBook on 2024/10/24.
 //
 
-import SwiftUI
+import Foundation
 
 struct Hike: Codable, Hashable, Identifiable {
     var id: Int

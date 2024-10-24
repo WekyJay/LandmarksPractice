@@ -7,6 +7,7 @@ A view showing the details for a hike.
 
 import SwiftUI
 
+
 struct HikeDetail: View {
     let hike: Hike
     @State var dataToShow = \Hike.Observation.elevation

@@ -10,6 +10,7 @@ import Foundation
 @Observable
 class ModelData { // 监视者，监视后swift会监视与视图有关联的数据变化。
     var landmarks: [Landmark] = load("landmarkData.json")
+    var hikes: [Hike] = load("hikeData.json")
 }
 
 
